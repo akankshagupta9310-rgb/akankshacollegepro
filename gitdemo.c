@@ -1,13 +1,8 @@
 #include <stdio.h>
-int main(){
-    int a=10;
-    a +=10;
-    printf("a+10 =%d",a);
-    a -= 10;
-    printf("a-10 =%d", a);
-    a *= 10;
-    printf("a*10 =%d", a);
+int main (){
+    int age =45;
+    printf("enter age");
+    scanf("%d", &age );
+    printf("age is %d ", age);
     return 0;
-
-
 }
