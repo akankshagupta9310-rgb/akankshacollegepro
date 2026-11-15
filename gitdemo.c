@@ -1,12 +1,6 @@
 #include <stdio.h>
-int man (){
-    int a, b;
-    printf("enter a");
-    scanf("%d", &a);
-
-    printf("enter ,b");
-    scanf("%d", &b);
-    printf("sum is %d", a+b);
+int main(){
+    printf("%d", 116 %2);
     return 0;
 
 }
