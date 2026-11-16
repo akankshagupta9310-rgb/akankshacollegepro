@@ -1,27 +1,16 @@
-#include <stdio.h>
-
-void printhello();
-void printgoodbye();
+void printtable(int n);
 
 int main(){
-   printhello();
-   printgoodbye();
+    int n;
+    printf("enter no");
+    scanf("%d",&n);
+
+    printtable(n);//argument/actual parameter
     return 0;
+
 }
-void printhello() {
-   printf("hello");
-   printf("my name akanksha");
+void printtable(int n){//parameter/formal parmeter
+    for(int i=1; i<=10; i++){
+        printf("i*n");
+    }
 }
-void printgoodbye(){
-   printf("goodbye");
-}
-
-
-    
-        
-        
-        
-
-
-
-    
