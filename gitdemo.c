@@ -1,14 +1,20 @@
 #include <stdio.h>
-int main (){
-     int n ;
-     printf("enter number");
-     scanf("%d",&n);
 
-     for(int i=1; i<=n; i++){
-        printf("%d",n*i);
-     }
+void printhello();
+void printgoodbye();
+
+int main(){
+   printhello();
+   printgoodbye();
     return 0;
-} 
+}
+void printhello() {
+   printf("hello");
+   printf("my name akanksha");
+}
+void printgoodbye(){
+   printf("goodbye");
+}
 
 
     
