@@ -1,12 +1,16 @@
 #include <stdio.h>
 int main (){
-    for(int i=1; i<=5; i=i+1){
-        printf("sorry  in advance");
-    
+     int n ;
+     printf("enter number");
+     scanf("%d",&n);
 
-    }
+     for(int i=1; i<=n; i++){
+        printf("%d",n*i);
+     }
     return 0;
-}
+} 
+
+
     
         
         
